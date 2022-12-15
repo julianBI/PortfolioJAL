@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio JAL</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a6d5942322.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a> </li>
+                    <li><a href="#about">About</a> </li>
+                    <li><a href="#services">Services</a> </li>
+                    <li><a href="#portfolio">Portfolio</a> </li>
+                    <li><a href="#contact">Contact</a> </li>   
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>               
+
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Syst. Eng.</p>
+                <h1>Hi, I'm <span>Julian A. Londono </span><h2>BI & Analytics Consultant</h2></h1>
+              
+            </div>
+
+        </div>
+
+
+    </div>
+<!-- About Section -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>
+                        Highly analytical and technically sophisticated professional with extensive experience leading concurrent BI and data analysis operations and projects from inception through to successful completion across a wide range of organizations by accelerating enterprise effectiveness at all levels to reach business set missions and goals. <br><br>
+                        Notable history of interpreting business analysis and reporting requirements into high-quality BI design by leveraging industry best practices, trends, and standards. Proficient at planning and developing advanced tools, platforms, dashboards, reports, and solutions by directing all BI efforts, aimed at driving data analysis and business capacity, driving efficiency, enabling processes, and optimizing performance/features. Well-versed in tracking, configuring, and rectifying data collection and processing issues. Demonstrated ability to offer world-class consultation to users and control cross-functional teams to address business problems
+
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>SAS Viya</span><br>SAS Visual Analytics</li>
+                            <li><span>Tableau</span><br>Data Scientist, Developer, Analyst, Author, Consumer, and Designer</li>
+                            <li><span>Microsoft Power BI</span><br>Data Analysis & Visualization</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Qualex Consulting Services Inc</span><br>Business Intelligence Software Applications Consultant</li>
+                            <li><span>Fiduciaria La Previsora S.A.Colombia</span><br>Quality Analyst</li>
+                            <li><span>Gobernación Departamental</span><br>Tech Support</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Instituto Tecnológico de Santo Domingo</span><br>Master of Business Administration</li>
+                            <li><span>Universidad Libre de Pereira, Quimbaya, Colombia</span><br>Diplomado en Gestión Pública y Mercadeo</li>
+                            <li><span>Universidad Antonio Nariño, Armenia, Colombia</span><br>Ingeniero de Sistemas con énfasis en Software</li>
+                        </ul>
+                    </div>
+
+
+
+                </div>
+            </div>
+        </div>
+
+        
+    </div>
+
+<!-- Services -->
+
+<div id="services">
+
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-sharp fa-solid fa-magnifying-glass-chart"></i>
+                <h2>Data Visualization & Analytics</h2>
+               
+                <p>Interpreting business analysis and reporting requirements into high-quality BI design</p>
+                <a href="#">Learn more</a>
+
+            </div>
+            <div>
+                <i class="fa-sharp fa-solid fa-magnifying-glass-chart"></i>
+                <h2>BI (Data Warehouse)</h2>
+                
+                <p>Adept at spearheading projects related to BI (Data Warehouse) from gathering business requirements to preparing functional specifications and detailed design to implementation</p>
+                <a href="#">Learn more</a>
+
+            </div>
+            <div>
+                <i class="fa-sharp fa-solid fa-magnifying-glass-chart"></i>
+                <h2>Formulation and execution of KPIs</h2>
+                
+                <p>Boosting BI organizational capabilities through formulation and execution of KPIs, scorecards, and complex reports to support crucial business decisions.</p>
+                <a href="#">Learn more</a>
+
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+<!-- Portfolio -->
+
+<div id="portfolio">
+
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.png">
+                <div class="layer">
+                    <h3>Gaming Reports</h3>
+                    <p>Those reports give both employees and managers the power to accelerate and improve decision making</p>
+                    <a href="https://public.tableau.com/app/profile/bijulian"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.png">
+                <div class="layer">
+                    <h3>Sports Reports</h3>
+                    <p>Those reports give both employees and managers the power to accelerate and improve decision making</p>
+                    <a href="https://public.tableau.com/app/profile/bijulian"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="images/work-3.png">
+                <div class="layer">
+                    <h3>Social Media Reports</h3>
+                    <p>Those reports give both employees and managers the power to accelerate and improve decision making</p>
+                    <a href="https://public.tableau.com/app/profile/bijulian"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+
+
+        </div>
+    <a href="https://public.tableau.com/app/profile/bijulian" class="btn">See more</a>
+
+    </div>
+</div>
+
+<!-- Contact Form -->
+<div id="contact">
+
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p> <i class="fa-solid fa-paper-plane"></i>     julian.londono.c@outlook.com</p>
+                <p> <i class="fa-solid fa-square-phone"></i>    809-865-7880</p>
+                <div class="social-icons">
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://linkedin.com/in/julianalbertolondono"><i class="fa-brands fa-linkedin"></i></a>
+
+                </div>
+                <a href="Images/my-cv.pdf"  download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+
+                <form name="submit-to-google-sheet">
+
+                    <input type="text" name ="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Mesagge"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p><i class="fa-solid fa-copyright"></i> Copytight 2022 Julian Londono -JAL-</p>
+    </div>
+</div>
+
+
+
+
+
+<script>
+    var tablinks=document.getElementsByClassName("tab-links");
+    var tabcontents=document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab")
+    }
+
+
+</script>
+
+<script>
+
+    var sidemenu = document.getElementById("sidemenu");
+    sidemenu.style.right="-200px";
+
+    function openmenu(){
+        sidemenu.style.right="0";
+    }
+
+    function closemenu(){
+        sidemenu.style.right="-200px";
+    }
+
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbw6AUy_-u3AufVt37VZ8L5m3SFs9MP6xvw35WzeY7W1A0qvaLpzX4X994km1kow2MAz_g/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg=document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML="Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML=""
+            }, 5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
